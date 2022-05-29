@@ -51,7 +51,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
 		</dependency>
+		
+		<!-- libreria commons de usuarios -->
+		<dependency>
+			<groupId>com.micro.springboot.app.commons.usuarios</groupId>
+			<artifactId>springboot-servicio-commons-usuarios</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
 	</dependencies>
+	
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
